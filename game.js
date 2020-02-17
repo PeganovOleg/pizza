@@ -188,9 +188,9 @@ $("#total-time-played2").text(hits2);
 }
 
 function soundClick() {
-  var audio1 = new Audio(); // Создаём новый элемент Audio
-  audio1.src = 'bul2.mp3'; // Указываем путь к звуку "клика"
-  audio1.autoplay = true; // Автоматически запускаем
+  //var audio1 = new Audio(); // Создаём новый элемент Audio
+  //audio1.src = 'bul2.mp3'; // Указываем путь к звуку "клика"
+  //audio1.autoplay = true; // Автоматически запускаем
 //new Audio('bul2.mp3').play()
 }
 
