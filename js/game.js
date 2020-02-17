@@ -56,7 +56,7 @@ $('.target2').removeClass('target2');
   // $(divSelector).removeClass('target2');
   $(divSelector).removeClass('miss');
   $(divSelector).addClass("target");
-   $(divSelector).text(hits + 1);
+  // $(divSelector).text(hits + 1);
   //  soundClick();
 }
 
@@ -94,7 +94,7 @@ if (Promah===0)
 
   
 
-  $("#total-time-played").text(hits);
+  $("#total-time-played").text(hits+1);
   $("#total-time-played2").text(hits2);
 
  // $("#total-time-played").text(hits);
@@ -281,6 +281,7 @@ function resetRedirectionDelay4(){
 
 function init2() {
    console.log("ПИЦЦА");
+   //hits = hits + 1;
 
  if ($('.target2').hasClass('target2')){
   $('.target2').text('');
