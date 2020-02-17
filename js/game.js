@@ -133,6 +133,7 @@ if (sluchpizz===2) {
  $("#win-message4").removeClass("d-none"); 
  }
 
+   $("#win-message4").removeClass("d-none");
  $("#win-message45").removeClass("d-none");
 
 }
