@@ -115,23 +115,27 @@ $("#total-time-played15").hide();
 let d2 = Math.floor(Math.random() *3)+1 ;
  sluchpizz=d2;
 console.log("номер пиццы");
- console.log(sluchpizz);
+ 
 
  if (bitoeserdce===0){
 
 if (sluchpizz===4) {
  $("#win-message3").removeClass("d-none"); 
+ console.log(sluchpizz);
  }
 
  if (sluchpizz===1) {
- $("#win-message2").removeClass("d-none"); 
+ $("#win-message2").removeClass("d-none");
+ console.log(sluchpizz); 
  }
 
 if (sluchpizz===2) {
  $("#win-message3").removeClass("d-none"); 
+ console.log(sluchpizz);
  }
  if (sluchpizz===3) {
- $("#win-message4").removeClass("d-none"); 
+ $("#win-message4").removeClass("d-none");
+ console.log(sluchpizz); 
  }
 
  $("#win-message45").removeClass("d-none");
