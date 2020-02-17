@@ -1,0 +1,153 @@
+.game-field {
+  background-color:#00FFFF;
+  min-height: 10vh;
+    margin: 1px 1px 1px 1px;
+  line-height: 10vh;
+ 
+}
+
+.target {
+ 
+ background:url("piz1.jpg");
+  background-size:100% 100%;
+  background-repeat: no-repeat ;
+  color:white; 
+  font-size: 20pt;
+  text-align: center;
+}
+
+.target2 {
+ 
+ background:url("34.png");
+  background-size:100% 100%;
+  background-repeat: no-repeat ;
+  color:white; 
+  font-size: 20pt;
+  text-align: center;
+}
+
+.target1{
+ 
+ background:url("4.jpg");
+  background-size:100% 100%;
+  background-repeat: no-repeat ;
+  color:white; 
+  font-size: 20pt;
+  text-align: center;
+}
+
+.miss {
+  background-color: #357EC7;
+}
+
+body {
+  background-color: #f4a460;
+
+}
+
+@media (max-width: 600px) {
+  .target {
+   background:url("piz1.jpg");
+  background-size:100% 100%;
+  background-repeat: no-repeat ;
+  color:white; 
+  font-size: 20pt;
+  text-align: center;
+}
+
+.target2 {
+ 
+ background:url("gor.jpg");
+  background-size:100% 100%;
+  background-repeat: no-repeat ;
+  color:white; 
+  font-size: 20pt;
+  text-align: center;
+}
+
+
+   .target1 {
+    background-size:100% 100%;
+   }  
+	
+
+  .game-field {
+  background-color: #e8793e;
+  min-height: 9vh;
+   margin: 1px 1px 1px 1px;
+  line-height: 9vh;
+
+}
+.miss {
+  background:url("piz2.jpg");
+ background-size:100% 100%;
+  background-repeat: no-repeat ;
+  color:white; 
+  font-size: 20pt;
+  text-align: center;
+
+ 
+ 
+}
+
+
+.game-field2 {
+  background-color: red;
+   text-align: center;
+  color:white;
+  font-size: 18pt;
+  } 
+
+  .game-field3 {
+ 
+   text-align: center;
+  color:#00bfff;
+  font-size: 15pt;
+  } 
+
+
+.text-bottom{
+ font-size: 19pt;
+  text-align: center;
+  color:#ff0000; 
+}
+
+.text-bottom3{
+ font-size: 20pt;
+  text-align: center;
+  color:#0000FF; 
+}
+
+.text-bottom4{
+ font-size: 20pt;
+  text-align: center;
+  color:red; 
+}
+
+
+.text-bottom2{
+ font-size: 12pt;
+  text-align: center;
+  color:#00008B; 
+}
+
+.text-bottom22{
+ font-size: 11pt;
+  text-align: center;
+  color:Snow; 
+}
+
+
+.text-bottom222{
+ font-size: 14pt;
+  text-align: center;
+  font-weight:bold;
+  color:Snow; 
+}
+
+.text-bottom2222{
+ font-size: 14pt;
+  text-align: center;
+  font-weight:bold;
+  color:black; 
+}
