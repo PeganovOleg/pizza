@@ -6,6 +6,7 @@ let hits = 0;
 let hits2 = 0;
 let firstHitTime = 0;
 let Promah=0;
+let PromahPizza=0;
 let Promah2=" промахов((";
 let Promah3="Вы сделали ";
 let Promah4="ПРОМАХИ НЕДОПУСТИМЫ!";
@@ -13,6 +14,7 @@ let Sekundy=0;
 let bitoeserdce=0;
 let schetchik=0;
 let sluchainoeChislo=0;
+let sluchpizz=0;
 
 
 
@@ -35,7 +37,7 @@ $('.target').removeClass('target');
   $(divSelector).removeClass('miss');
   $(divSelector).addClass("target2");
    $(divSelector).text(hits + 1);
-   // soundClick();
+    //soundClick();
 
   }
 
@@ -55,8 +57,8 @@ $('.target2').removeClass('target2');
   $(divSelector).removeClass('miss');
   $(divSelector).addClass("target");
    $(divSelector).text(hits + 1);
-    //soundClick();
-  }
+  //  soundClick();
+}
 
 
 
@@ -95,6 +97,10 @@ if (Promah===0)
   $("#total-time-played").text(hits);
   $("#total-time-played2").text(hits2);
 
+ // $("#total-time-played").text(hits);
+  $("#total-time-played133").text(PromahPizza);
+
+
 
 
   $("#total-time-played12").hide();
@@ -106,8 +112,35 @@ $("#total-time-played15").hide();
   $("#button-reload").removeClass("d-none");
   $("#win-message").removeClass("d-none");
 
-$("#win-message2").removeClass("d-none");
-soundClick3() ;
+let d2 = Math.floor(Math.random() *3) ;
+ sluchpizz=d2;
+console.log("номер пиццы");
+ console.log(sluchpizz);
+
+ if (bitoeserdce===0){
+if (sluchpizz===0) {
+ $("#win-message2").removeClass("d-none"); 
+ }
+
+ if (sluchpizz===1) {
+ $("#win-message2").removeClass("d-none"); 
+ }
+
+if (sluchpizz===2) {
+ 
+ }
+ if (sluchpizz===3) {
+ $("#win-message4").removeClass("d-none"); 
+ }
+
+ $("#win-message45").removeClass("d-none");
+
+}
+
+
+
+
+ soundClick3() ;
  clearTimeout(redirectionDelay);
 
 }
@@ -122,19 +155,21 @@ function handleClick(event) {
     hits2=0;
     //$('.seconds').text(hits2);
 bitoeserdce=1;
+$("#win-message5").removeClass("d-none"); 
     endGame() 
   }
  
 
  if ($(event).hasClass("target")) { 
-    //soundClick();
+    soundClick();
     hits2=hits2+1;
   }
   else {
     
-   // soundClick2();
+    soundClick2();
     $(event).addClass('miss'); 
 
+PromahPizza+=1;
     if (hits2>0){
      hits2=hits2-1;
     }
