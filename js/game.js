@@ -36,7 +36,7 @@ $('.target').removeClass('target');
   console.log(divSelector);
   $(divSelector).removeClass('miss');
   $(divSelector).addClass("target2");
-   $(divSelector).text(hits + 1);
+  $(divSelector).text();
     //soundClick();
 
   }
@@ -280,14 +280,28 @@ function resetRedirectionDelay4(){
 
 
 function init2() {
+   console.log("ПИЦЦА");
 
-  hits = hits + 1;
-
-$('.target').text('');
-$('.target2').text('');
-  
+ if ($('.target2').hasClass('target2')){
+  $('.target2').text('');
+  console.log("ГОРЕЛАЯ");
   round();
   resetRedirectionDelay()
+
+
+}
+else{
+
+   hits = hits + 1;
+
+$('.target').text('');
+ round();
+  resetRedirectionDelay()
+}
+
+
+ 
+
 
 }
 
