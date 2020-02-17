@@ -35,7 +35,7 @@ $('.target').removeClass('target');
   $(divSelector).removeClass('miss');
   $(divSelector).addClass("target2");
    $(divSelector).text(hits + 1);
-    soundClick();
+   // soundClick();
 
   }
 
@@ -55,7 +55,7 @@ $('.target2').removeClass('target2');
   $(divSelector).removeClass('miss');
   $(divSelector).addClass("target");
    $(divSelector).text(hits + 1);
-    soundClick();}
+    //soundClick();}
 
 
 
@@ -117,7 +117,7 @@ function handleClick(event) {
 
 
   if ($(event).hasClass("target2")) { 
-    soundClick();
+   // soundClick();
     hits2=0;
     //$('.seconds').text(hits2);
 bitoeserdce=1;
@@ -126,12 +126,12 @@ bitoeserdce=1;
  
 
  if ($(event).hasClass("target")) { 
-    soundClick();
+    //soundClick();
     hits2=hits2+1;
   }
   else {
     
-    soundClick2();
+   // soundClick2();
     $(event).addClass('miss'); 
 
     if (hits2>0){
