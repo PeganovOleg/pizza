@@ -166,7 +166,7 @@ $("#win-message5").removeClass("d-none");
  
 
  if ($(event).hasClass("target")) { 
-    soundClick();
+    //soundClick();
     hits2=hits2+1;
   }
   else {
