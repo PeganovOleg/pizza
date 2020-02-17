@@ -55,7 +55,8 @@ $('.target2').removeClass('target2');
   $(divSelector).removeClass('miss');
   $(divSelector).addClass("target");
    $(divSelector).text(hits + 1);
-    //soundClick();}
+    //soundClick();
+  }
 
 
 
